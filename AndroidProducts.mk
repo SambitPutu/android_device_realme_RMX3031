@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX3031.mk
+    $(LOCAL_DIR)/voltage_RMX3031.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_RMX3031-user \
-    lineage_RMX3031-userdebug \
-    lineage_RMX3031-eng
+    voltage_RMX3031-user \
+    voltage_RMX3031-userdebug \
+    voltage_RMX3031-eng
