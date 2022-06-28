@@ -134,10 +134,6 @@ PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
     SettingsProviderOverlay
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-voltage
-
 # Enforce RRO targets
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
