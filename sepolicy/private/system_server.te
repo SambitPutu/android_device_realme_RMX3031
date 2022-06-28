@@ -2,5 +2,6 @@
 allow system_server sysfs_battery_supply:file { getattr open write };
 allow system_server app_zygote:process { getpgid };
 allow system_server default_android_hwservice:hwservice_manager { find };
+allow system_server app_lock_service:service_manager add;
 
 get_prop(system_server, vendor_camera_prop)
