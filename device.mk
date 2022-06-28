@@ -151,6 +151,9 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     RcsService \
     PresencePolling
+    
+# RealmeParts
+$(call inherit-product, packages/apps/RealmeParts/parts.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
